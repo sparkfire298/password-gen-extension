@@ -1,6 +1,8 @@
 # password-gen-extension
 I got sick of writing Discord bots. So I decided to give writing Chrome Extensions a go. This is very basic, (v0.01), and will likely get ripped off by some kid.
 
+version **0.01**
+
 ### Please contribute !!
 
 # Setup
