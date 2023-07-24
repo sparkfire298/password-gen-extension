@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Password Generator",
+  "version": "0.01",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+   },
+  "description": "This extension will create a random password, because Chrome won't offer to create one every time. Extremely basic",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["generatePassword.js"]
+    }
+  ],
+  "permissions": ["clipboardWrite"]
+}
